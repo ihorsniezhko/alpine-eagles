@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
-
+<html data-bs-theme="light" lang="en"> <!-- Used BS light theme that links are the same color as the text -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -10,191 +9,167 @@
     <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/img/favicon-180x180.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192x192.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Serif&amp;display=swap">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
     <header>
-        <!-- Start: Problems with inaccurate scrolling in fixed-top -->
+        <!-- Inaccurate scrolling fixed in CS JavaScript -->
         <nav class="navbar navbar-expand-md fixed-top bg-body py-3">
-            <div class="container"><a href="#index.html"><img id="logo-image" class="me-4" src="assets/img/alpine-eagles-logo.webp" alt="Alpine Eagles MTB E-bike Club"></a><a class="navbar-brand" href="#index.html">
+            <div class="container"><a href="index.html"><img id="logo-image" class="me-4" src="assets/img/alpine-eagles-logo.webp" alt="Alpine Eagles MTB E-bike Club"></a><a class="navbar-brand" href="index.html">
                     <h1>Alpine Eagles</h1>
-                </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbar"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><!-- Start: Navbar left links, link color has been reassigned -->
+                </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbar"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button> <!-- Navbar left links, link color has been reassigned -->
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#biking">Biking</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#biking">Biking</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="#join">Join</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
-                </div><!-- End: Navbar left links, link color has been reassigned -->
+                </div>
             </div>
-        </nav><!-- End: Problems with inaccurate scrolling in fixed-top -->
+        </nav>
     </header>
     <main>
-        <!-- Start: Bootstrap classes for better responsiveness -->
-        <section class="text-primary-emphasis img-fluid mb-0 py-4 pt-xl-4" id="hero" style="background: url(&quot;assets/img/alpine-eagles-hero-background-opacity.webp&quot;) top right / cover no-repeat;">
-            <!-- Start: Hero-message ID to limit width of text container -->
-            <div class="container text-center" id="hero-message">
+        <!-- BS class for responsiveness, custom class for background -->
+        <section class="text-primary-emphasis img-fluid mb-0 py-4 pt-lg-4 pt-xl-4" id="hero" aria-label="E-Bike Adventures in the Heart of Germany">
+            <!-- Hero-message ID to limit width of text container -->
+            <div class="container-md text-center" id="hero-message">
                 <h2 class="text-center">E-Bike Adventures in the Heart of Germany!</h2>
                 <hr>
                 <p class="fw-semibold">Experience the breathtaking beauty of the Bavarian Alps on an unforgettable e-mountain bike tour! Explore stunning trails, conquer epic climbs with ease, and soak in panoramic views.</p>
                 <p class="fw-semibold">Whether you're a seasoned rider or new to e-biking, we've got the perfect adventure for you. Bring your own e-bike or rent one of our top-of-the-line models. Book your Alpine escape today and discover the magic of e-biking!</p>
-            </div><!-- End: Hero-message ID to limit width of text container -->
-        </section><!-- End: Bootstrap classes for better responsiveness -->
-        <!-- Start: Used Bootstrap classes for better margins -->
-        <section id="biking" class="py-5 pt-0 mb-0 pb-0">
-            <!-- Start: Bootstrap Articles Cards -->
+            </div>
+        </section>
+        <!-- Handpicked BS classes for better margins -->
+        <section id="biking" class="py-5 pt-0 mb-0 pb-0 pb-lg-4 pb-md-4 pb-sm-4">
+            <!-- Bootstrap Articles Cards -->
             <div class="container py-4 mb-0 pb-0 pt-3">
                 <h2 class="text-center text-primary-emphasis mb-4 py-lg-3 pb-lg-2 pt-1 pt-md-2 pt-sm-2 pb-0">Mountain Biking Adventures</h2>
                 <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-4 pt-0">
-                    <!-- Start: Added h-100 to each card to ensure same height -->
                     <div class="col">
-                        <div class="card w-100"><img class="card-img-top w-100 d-block" style="background: url(&quot;assets/img/crush-climbs.webp&quot;) bottom / cover;" src="assets/img/crush-climbs.webp" alt="Crush Climbs, Not Quads">
+                        <!-- h-100 class for equal cards height -->
+                        <div class="card h-100"><img class="card-img-top w-100 d-block" src="assets/img/crush-climbs.webp" alt="Crush Climbs, Not Quads">
                             <div class="card-body p-4">
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-4 card-title">Crush Climbs, Not Quads</h3><!-- End: Increased font for semantics and accessibility -->
+                                <h3 class="fs-4 card-title">Crush Climbs, Not Quads</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">E-bikes give you that extra boost to conquer those steep hills without feeling like your legs are on fire. More uphill fun, less uphill struggle!</p>
-                            </div>
-                        </div>
-                    </div><!-- End: Added h-100 to each card to ensure same height -->
-                    <div class="col">
-                        <div class="card w-100"><img class="card-img-top w-100 d-block" style="height: auto;background: url(&quot;assets/img/go-farther.webp&quot;);" src="assets/img/go-farther.webp" alt="Go Farther, Explore More">
-                            <div class="card-body p-4">
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-4 card-title">Go Farther, Explore More</h3><!-- End: Increased font for semantics and accessibility -->
-                                <p class="card-text">E-bikes let you ride longer and explore further into the wilderness, discovering hidden trails and epic views you never thought possible.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card w-100"><img class="card-img-top w-100 d-block" style="height: auto;background: url(&quot;assets/img/get-fit.webp&quot;);" src="assets/img/get-fit.webp" alt="Get Fit Without Feeling It">
+                        <div class="card h-100"><img class="card-img-top w-100 d-block" src="assets/img/go-farther.webp" alt="Go Farther, Explore More">
                             <div class="card-body p-4">
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-4 card-title">Get Fit Without Feeling It</h3><!-- End: Increased font for semantics and accessibility -->
+                                <h3 class="fs-4 card-title">Go Farther, Explore More</h3> <!-- Increased font for semantics and accessibility -->
+                                <p class="card-text">E-bikes let you ride longer and explore further into the wilderness, discovering trails and epic views you never thought possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100"><img class="card-img-top w-100 d-block" src="assets/img/get-fit.webp" alt="Get Fit Without Feeling It">
+                            <div class="card-body p-4">
+                                <h3 class="fs-4 card-title">Get Fit Without Feeling It</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">You'll still get a great workout, but it won't feel like punishment. It's a sneaky exercise – you'll be having too much fun to notice!</p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card w-100"><img class="card-img-top w-100 d-block" style="height: auto;background: url(&quot;assets/img/fun-for-all.webp&quot;);" src="assets/img/fun-for-all.webp" alt="Healthy Fun for All Ages">
+                        <div class="card h-100"><img class="card-img-top w-100 d-block" src="assets/img/fun-for-all.webp" alt="Healthy Fun for All Ages">
                             <div class="card-body p-4">
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-4 card-title">Healthy Fun for All Ages</h3><!-- End: Increased font for semantics and accessibility -->
+                                <h3 class="fs-4 card-title">Healthy fun for all age groups</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">E-bikes make mountain biking more accessible and enjoyable for everyone, whether you're a young shredder or a seasoned rider.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!-- End: Bootstrap Articles Cards -->
-        </section><!-- End: Used Bootstrap classes for better margins -->
-        <!-- Start: Used Bootstrap classes for better margins -->
+            </div>
+        </section>
+        <!-- Handpicked BS classes for better margins -->
         <section class="bg-light py-5 mt-0 pt-0 mb-0 pb-0" id="services">
             <div class="container mt-lg-0 pt-3 pt-lg-3">
-                <h2 class="text-center text-primary-emphasis mb-4 pt-0">Our Services</h2><!-- Start: Added h-100 to each card to ensure same height -->
-                <div class="row mb-0 pb-0">
+                <h2 class="text-center text-primary-emphasis mb-4 pt-0">Our Services</h2>
+                <div class="row mb-0 pb-0 pb-md-0">
                     <div class="col-md-3 mb-4">
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-biking fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Guided E-Bike Tours</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-biking fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Guided E-Bike Tours</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Offer a variety of guided tours for different skill levels and interests, showcasing the best trails and scenery in the region.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-bicycle fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-4 card-title">E-Bike Rentals</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-bicycle fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-4 card-title">E-Bike Rentals</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Provide a fleet of high-quality, well-maintained mountain e-bikes for members and visitors to rent.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-tools fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Skills Clinics and Workshops</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-tools fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Skills Clinics and Workshops</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Host clinics and workshops to help riders improve their e-biking skills, including bike handling, trail etiquette, and basic maintenance.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-wrench fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Bike Maintenance and Repair</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-wrench fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Bike Maintenance and Repair</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Offer on-site bike maintenance and repair services to keep members' bikes in top condition, or to fix any issues that arise during a tour.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-users fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Social Events and Rides</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-users fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Social Events and Rides</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Organize regular social rides, events, and gatherings to foster a sense of community among e-bike enthusiasts.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-map fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Route Planning and Information</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-map fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Route Planning and Information</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Provide detailed information about local trails, including maps, difficulty ratings, and points of interest.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-bed fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Accommodation Partnerships</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-bed fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Accommodation Partnerships</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Partner with local hotels, guesthouses, or cabins to offer members discounted accommodation packages for multi-day trips.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
                     <div class="col-md-3 mb-4">
-                        <!-- Start: Added h-100 to each card to ensure same height -->
                         <div class="card h-100 text-center">
                             <div class="card-body">
-                                <!-- Start: Increased FA icon size X2 --><i class="fas fa-shopping-cart fa-2x mb-2"></i><!-- End: Increased FA icon size X2 -->
-                                <!-- Start: Increased font for semantics and accessibility -->
-                                <h3 class="fs-5 card-title">Gear Sales and Rental</h3><!-- End: Increased font for semantics and accessibility -->
+                                <i class="fas fa-shopping-cart fa-2x mb-2"></i> <!-- Increased FA icon size X2 -->
+                                <h3 class="fs-5 card-title">Gear Sales and Rental</h3> <!-- Increased font for semantics and accessibility -->
                                 <p class="card-text">Offer essential gear and accessories for sale or rent, including helmets, gloves, GPS devices, and more.</p>
                             </div>
-                        </div><!-- End: Added h-100 to each card to ensure same height -->
+                        </div>
                     </div>
-                </div><!-- End: Added h-100 to each card to ensure same height -->
+                </div>
             </div>
-        </section><!-- End: Used Bootstrap classes for better margins -->
-        <!-- Start: Used Bootstrap classes for better margins -->
+        </section>
+        <!-- Handpicked BS classes for better margins -->
         <section id="schedule" class="py-5 mb-0 pb-0 pt-lg-0 mt-lg-0 pt-0">
             <div class="container pt-3 mt-sm-0 pt-sm-3 pt-lg-0 mt-lg-3">
                 <h2 class="text-center text-primary-emphasis mb-3 mb-lg-3">Upcoming Journeys</h2>
                 <div class="justify-content-center">
-                    <!-- Start: Custom class of width limit 720px -->
+                    <!-- Custom class of width limit 720px -->
                     <div id="journey-schedule-table" class="max-width-limit">
                         <table class="table table-striped">
                             <thead>
@@ -222,25 +197,30 @@
                                 </tr>
                             </tbody>
                         </table>
-                    </div><!-- End: Custom class of width limit 720px -->
+                    </div>
                 </div>
             </div>
-        </section><!-- End: Used Bootstrap classes for better margins -->
-        <!-- Start: Used Bootstrap classes for better margins -->
-        <section class="bg-light py-5 pb-lg-4 pb-sm-4 pt-0 pb-0" id="join">
-            <div class="container pt-3">
+        </section>
+        <!-- Handpicked BS classes for better margins -->
+        <section class="bg-light py-5 pb-lg-4 pb-sm-4 pt-0 pb-0 mb-0" id="join">
+            <div class="container pt-3 pb-0">
                 <h2 class="text-center text-primary-emphasis mb-3">Join the Adventure!</h2>
-                <p class="text-center">Ready to give e-biking a try? Come join the club and let's hit the trails!</p><!-- Start: Custom class of width limit 720px -->
-                <form class="max-width-limit" action="https://formdump.codeinstitute.net" method="post">
+                <p class="text-center">Ready to give e-biking a try? Come join the club and let's hit the trails!</p>
+                <!-- Custom class of width limit 720px -->
+                <form class="max-width-limit" action="https://formdump.codeinstitute.net" method="post"> <!-- Variable and value are passed to the CI formdump -->
+                    <!--  Form is implemented as container for responsiveness -->
                     <div class="container">
                         <div class="row mb-4">
-                            <div class="col-12 col-sm-6"><label class="form-label" for="firstName">First Name</label><!-- Start: Variable and value are passed to the CI formdump --><input class="form-control" type="text" id="firstName" required="" name="member_first_name"><!-- End: Variable and value are passed to the CI formdump -->
+                            <div class="col-12 col-sm-6"><label class="form-label" for="firstName">First Name</label>
+                                <input class="form-control" type="text" id="firstName" required="" name="member_first_name">
                             </div>
-                            <div class="col-12 col-sm-6"><label class="form-label" for="lastName">Last Name</label><!-- Start: Variable and value are passed to the CI formdump --><input class="form-control" type="text" id="lastName" required="" name="member_last_name"><!-- End: Variable and value are passed to the CI formdump -->
+                            <div class="col-12 col-sm-6"><label class="form-label" for="lastName">Last Name</label>
+                                <input class="form-control" type="text" id="lastName" required="" name="member_last_name">
                             </div>
                         </div>
                         <div class="row mb-4">
-                            <div class="col-12 col-sm-6"><label class="form-label" for="ageGroup">Age Group</label><!-- Start: Variable and value are passed to the CI formdump --><select class="form-select" id="ageGroup" required="" name="member_age">
+                            <div class="col-12 col-sm-6"><label class="form-label" for="ageGroup">Age Group</label>
+                                <select class="form-select" id="ageGroup" required="" name="member_age">
                                     <option value="" selected="">Select your age group</option>
                                     <option value="teen">Teen (14-17 years with an adult)</option>
                                     <option value="young_adult">Young Adult (18-29 years)</option>
@@ -249,50 +229,62 @@
                                     <option value="active_senior">Active Senior (60-69 years)</option>
                                     <option value="senior">Senior (70+ years)</option>
                                     <option value="family">Family</option>
-                                </select><!-- End: Variable and value are passed to the CI formdump -->
+                                </select>
                             </div>
-                            <div class="col-12 col-sm-6"><label class="form-label" for="tourDate">Desirable Tour Date</label><!-- Start: Variable and value are passed to the CI formdump --><input class="form-control" id="tourDate" type="date" required="" name="tour_date"><!-- End: Variable and value are passed to the CI formdump -->
+                            <div class="col-12 col-sm-6"><label class="form-label" for="tourDate">Desirable Tour Date</label>
+                                <input class="form-control" id="tourDate" type="date" required="" name="tour_date">
                             </div>
                         </div>
                         <div class="row mb-4">
-                            <div class="col-12 col-sm-6"><label class="form-label" for="email">E-mail</label><!-- Start: Variable and value are passed to the CI formdump --><input class="form-control" type="email" id="email" required="" name="member_email"><!-- End: Variable and value are passed to the CI formdump -->
+                            <div class="col-12 col-sm-6"><label class="form-label" for="email">E-mail</label>
+                                <input class="form-control" type="email" id="email" required="" name="member_email">
                             </div>
-                            <div class="col-12 col-sm-6"><label class="form-label" for="phone">Phone</label><input class="form-control" type="tel" id="phone" required="" name="member_phone"></div>
+                            <div class="col-12 col-sm-6"><label class="form-label" for="phone">Phone</label>
+                                <input class="form-control" type="tel" id="phone" required="" name="member_phone">
+                            </div>
                         </div>
-                        <p class="text-muted mt-3"><strong>Important Note:</strong> Always assess individual fitness levels and experience, regardless of age. It's good practice to have a medical disclaimer form for all participants to sign.</p><!-- Start: Flex container to move the buttons to the end -->
-                        <div class="d-flex justify-content-end"><button class="btn btn-primary" type="submit">Submit</button><button class="btn btn-secondary ms-2" type="reset">Cancel</button></div><!-- End: Flex container to move the buttons to the end -->
+                        <p class="text-muted mt-3"><strong>Important Note:</strong> Always assess individual fitness levels and experience, regardless of age. It's good practice to have a medical disclaimer form for all participants to sign.</p>
+                        <!-- Flex container to move the buttons to the end -->
+                        <div class="d-flex justify-content-end"><button class="btn btn-primary" type="submit">Submit</button><button class="btn btn-secondary ms-2" type="reset">Cancel</button></div>
                     </div>
-                </form><!-- End: Custom class of width limit 720px -->
+                </form>
             </div>
-        </section><!-- End: Used Bootstrap classes for better margins -->
+        </section>
     </main>
     <footer class="mt-lg-0 pt-lg-0">
-        <!-- Start: BS cards for consistent look and 720px width limit -->
+        <!-- Used BS cards for consistent look and custom class for 720px width limit -->
         <div class="container py-4 py-xl-5 mt-0 pt-0 pt-lg-2 pt-xl-0 mb-xl-0 pb-xl-4" id="contact">
-            <!-- Start: Used BS classes for better placement -->
+            <!-- Handpicked BS classes for better placement -->
             <div class="row gy-4 mt-0 pt-0">
                 <div class="col-12 col-sm-6 d-flex">
                     <div class="card flex-fill">
-                        <!-- Start: BS Responsive Embed GMap with accessibility title -->
-                        <div class="ratio ratio-4x3 pt-0 mt-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5120.310311999828!2d8.229923576967069!3d50.083381871524345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bdbe76be46ae5d%3A0xabd37ad9831bac79!2sHellmundstra%C3%9Fe%2056%2C%2065183%20Wiesbaden!5e0!3m2!1sru!2sde!4v1737328726094!5m2!1sru!2sde" title="Alpine Eagles Club on Google Map"></iframe></div><!-- End: BS Responsive Embed GMap with accessibility title -->
+                        <!-- BS Responsive Embed GMap with accessibility title -->
+                        <div class="ratio ratio-4x3 pt-0 mt-0"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5120.310311999828!2d8.229923576967069!3d50.083381871524345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bdbe76be46ae5d%3A0xabd37ad9831bac79!2sHellmundstra%C3%9Fe%2056%2C%2065183%20Wiesbaden!5e0!3m2!1sru!2sde!4v1737328726094!5m2!1sru!2sde" title="Alpine Eagles Club on Google Map"></iframe></div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 d-flex">
                     <div class="card flex-fill">
-                        <!-- Start: Links of the same color as body text and clickable -->
+                        <!-- Used BS font style that links are the same color as the text -->
                         <div class="card-body d-flex flex-column p-4">
                             <h2 class="card-title">Contact Us</h2>
-                            <p class="card-text"><i class="fas fa-map-marker-alt me-2"></i><strong>Alpine Eagles MTB Club</strong>, 65183, Wiesbaden, Hellmundstr. 56</p>
+                            <address>
+                                <p class="card-text"><i class="fas fa-map-marker-alt me-2"></i><strong>Alpine Eagles MTB Club</strong>, 65183, Wiesbaden, Hellmundstr. 56</p>
+                            </address>
                             <p class="card-text"><i class="fas fa-phone-alt me-2"></i><a class="link-body-emphasis" href="tel:+71234567890">+491234567890</a></p>
                             <p class="card-text"><i class="fas fa-envelope me-2"></i><a class="link-body-emphasis" href="mailto:go@alpineegles.club">go@alpineegles.club</a></p>
-                        </div><!-- End: Links of the same color as body text and clickable -->
+                        </div>
                     </div>
                 </div>
-            </div><!-- End: Used BS classes for better placement -->
-            <!-- Start: Flex container for placing icons in the center -->
-            <div class="d-flex justify-content-center social-icons pt-lg-0 mt-lg-4 pt-0 mt-4"><a class="me-4" href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook fa-2x" aria-label="Visit our Facebook page"></i></a><a class="me-4" href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fab fa-youtube fa-2x" aria-label="Visit our Youtube page"></i></a><a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fab fa-instagram fa-2x" aria-label="Visit our Instagram page"></i></a></div><!-- End: Flex container for placing icons in the center -->
-        </div><!-- End: BS cards for consistent look and 720px width limit -->
-    </footer><!-- Start: CI code to close the hamburger menu --><script>
+            </div>
+            <!-- Flex container and BS classes for placing social icons in the center -->
+            <div class="d-flex justify-content-center pt-lg-0 mt-lg-4 pt-0 mt-4">
+                <a class="me-4" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fab fa-facebook fa-2x"></i></a>
+                <a class="me-4" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i class="fab fa-instagram fa-2x"></i></a></div>
+        </div>
+    </footer>
+    <!-- CI JS code to close the hamburger menu -->
+    <script>
     document
         .querySelectorAll(".navbar-collapse .nav-link")
         .forEach((link) => {
@@ -300,7 +292,7 @@
                 let section = document.querySelector(e.target.getAttribute("href"));
                 if (section) {
                     e.preventDefault(); // Prevent default anchor click behavior
-                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    let navbarHeight = 92;
                     window.scroll({
                         top: section.offsetTop - navbarHeight, // Adjust for navbar height
                         behavior: "smooth",
@@ -311,8 +303,10 @@
                 }
             });
         });
-</script><!-- End: CI code to close the hamburger menu -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </script>
+    <!-- Font Awesome JS code -->
+    <script src="https://kit.fontawesome.com/6a1295cdde.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS code -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-
 </html>
