@@ -6,7 +6,7 @@ This `README.md` provides an overview of the Alpine Eagles E-bike MTB Club websi
 
 The Alpine Eagles E-bike MTB Club website promotes e-mountain bike tours in the Bavarian Alps. It targets both experienced and new e-bikers interested in exploring the region's trails. The site provides information about the club, its services, scheduled tours, and a way to join the community. The goal of this project is to attract new members to the club by showing them the beauty of e-biking in the Bavarian Alps.
 
-![Alpine Eagles Mockup](https://ihorsniezhko.github.io/alpine-eagles/assets/media/alpine-eagles-mockup.png)
+![Alpine Eagles Mockup](assets/media/alpine-eagles-mockup.png)
 
 ### Site Goals
 *   Create an engaging and informative website that promotes the benefits of e-biking in the Bavarian Alps.
@@ -30,8 +30,8 @@ The Alpine Eagles E-bike MTB Club website promotes e-mountain bike tours in the 
 Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the Alpine Eagles website's layout used to plan the user interface. Balsamiq was chosen for its ability to quickly create and iterate on visual layouts, allowing for rapid design decisions and modifications.
 
 ### Location
-*	The wireframes PDF file for the Alpine Eagles website can be found [here](https://ihorsniezhko.github.io/alpine-eagles/assets/media/alpine-eagles-wireframes.pdf).
-*	The Balsamiq wireframes BMPR file can be found [here](https://ihorsniezhko.github.io/alpine-eagles/assets/media/alpine-eagles-wireframes.bmpr).
+*	The wireframes PDF file for the Alpine Eagles website can be found [here](assets/media/alpine-eagles-wireframes.pdf).
+*	The Balsamiq wireframes BMPR file can be found [here](assets/media/alpine-eagles-wireframes.bmpr).
 
 ### Wireframes for Alpine Eagles
 *   Clear navigation menu is located at the top of the page, providing easy access to different sections of the website, including "Biking," "Services," "Schedule," "Join," and "Contact". The navigation bar collapses on smaller screens to maintain the site's integrity.
@@ -49,31 +49,31 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 
 *   **Navigation Bar:** The navigation bar at the top of the page provides links to different sections: Biking, Services, Schedule, Join, and Contact. This allows easy navigation across all devices.
 
-![Alpine Eagles Navigation Bar](https://ihorsniezhko.github.io/alpine-eagles/assets/media/navigation-bar.png)
+![Alpine Eagles Navigation Bar](assets/media/navigation-bar.png)
 
 *  **Hero Section**: Includes a title, tagline and a brief explanation of the club's offering. The section's aim is to grab the user's attention and clearly explain the club's goals.
 
-![Alpine Eagles Hero Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/hero.png)
+![Alpine Eagles Hero Section](assets/media/hero.png)
 
 *   **Mountain Biking Adventures Section:** This section features four images and descriptive text, highlighting the benefits of e-biking. This section is designed to persuade users to join the club and consider e-biking as their form of exercise.
 
-![Alpine Eagles Biking Adventures Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/mountain-biking-adventures.png)
+![Alpine Eagles Biking Adventures Section](assets/media/mountain-biking-adventures.png)
 
 *   **Our Services Section:** This section lists the services offered by the club, including guided tours, rentals, and maintenance. This is valuable for users as they can learn about everything the club offers.
 
-![Alpine Eagles Our Services Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/our-services.png)
+![Alpine Eagles Our Services Section](assets/media/our-services.png)
 
 *   **Upcoming Journeys Section:** A table that shows upcoming tours with their dates. This allows users to see the tour schedule and plan accordingly.
 
-![Alpine Eagles Upcoming Journeys Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/upcoming-journeys.png)
+![Alpine Eagles Upcoming Journeys Section](assets/media/upcoming-journeys.png)
 
 *   **Join the Adventure Section:** This section has a sign-up form to allow users to join the club by providing their name, age, and contact information. The form includes client-side validation.
 
-![Alpine Eagles Join the Adventure Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/join-adventure.png)
+![Alpine Eagles Join the Adventure Section](assets/media/join-adventure.png)
 
 *   **Contact Us Section:** This section provides the club's contact information and social media links. Social media links open in a new tab.
 
-![Alpine Eagles Contact Us Section](https://ihorsniezhko.github.io/alpine-eagles/assets/media/contact-us.png)
+![Alpine Eagles Contact Us Section](assets/media/contact-us.png)
 
 ## Future Features
 *   A gallery section featuring images from past club events would be added to showcase the club's activities.
@@ -106,7 +106,7 @@ Balsamiq wireframes are low-fidelity, hand-drawn style digital sketches of the A
 
 ## Lighthouse Report
 
-![Alpine Eagles Lighthouse Report](https://ihorsniezhko.github.io/alpine-eagles/assets/media/alpine-eagles-lighthouse.png)
+![Alpine Eagles Lighthouse Report](assets/media/alpine-eagles-lighthouse.png)
 
 ## Deployment
 
